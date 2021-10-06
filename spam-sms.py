@@ -94,7 +94,7 @@ class nyepam:
 			for x in range(5):
 				a=reek.get("https://www.matahari.com/customer/account/create/")
 				b=a.cookies["PHPSESSID"]
-				send=req.post("https://www.matahari.com/rest/V1/thorCustomers",data=json.dumps({"thor_customer":{"name":" Kang Pacman","card_number":False,"email_address":"aapafandi01@gmail.com","mobile_country_code":"+62","gender_id":"1","mobile_number":self._08,"mro":"","password":"kontolanjingmemek6793","birth_date":"10/04/2000"}}),headers={"Host": "www.matahari.com","content-length": "245","x-newrelic-id": "Vg4GVFVXDxAGVVlVBgcGVlY=","x-requested-with": "XMLHttpRequest","user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; SM-J111F Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36","content-type": "application/json","accept": "*/*","referer": "https://www.matahari.com/customer/account/create/","accept-encoding": "gzip, deflate","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cookie": f"PHPSESSID={b}"}).text
+				send=req.post("https://www.matahari.com/rest/V1/thorCustomers",data=json.dumps({"thor_customer":{"name":" Kang Pacul","card_number":False,"email_address":"kang4sya@gmail.com","mobile_country_code":"+62","gender_id":"1","mobile_number":self._08,"mro":"","password":"kontolanjingmemek6793","birth_date":"10/04/2000"}}),headers={"Host": "www.matahari.com","content-length": "245","x-newrelic-id": "Vg4GVFVXDxAGVVlVBgcGVlY=","x-requested-with": "XMLHttpRequest","user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; SM-J111F Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36","content-type": "application/json","accept": "*/*","referer": "https://www.matahari.com/customer/account/create/","accept-encoding": "gzip, deflate","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cookie": f"PHPSESSID={b}"}).text
 				if "Success" in send:continue
 				else:break
 			for x in range(5):
@@ -114,7 +114,7 @@ class nyepam:
 		except reek.exceptions.ConnectionError:exit("\x1b[0;31mSinyal Error")
 		except (KeyboardInterrupt,EOFError):exit("[!] Exit")
 __import__("os").system("clear")
-os.system("xdg-open https://youtube.com/channel/UCFggfLWFCmGGyb2VH2EBfBQ")
+os.system("xdg-open https://instagram.com/sya.shi")
 mengetik (f"""
 {sp}{u} [{H}×{u}]{k}Author {H}: {k}Syahrul Shiddiq
 {sp}{u} [{H}×{u}]{k}Team   {H}: {k}RED DEVILS
@@ -126,7 +126,7 @@ mengetik (f"""
 {u}╚══╗║║╔══╝║╚═╝║║║║║║║  {u}╚══╗║║║║║║║╚══╗║
 {u}║╚═╝║║║───║╔═╗║║║║║║║  {u}║╚═╝║║║║║║║║╚═╝║
 {u}╚═══╝╚╝───╚╝─╚╝╚╝╚╝╚╝  {u}╚═══╝╚╝╚╝╚╝╚═══╝{en}
-{H}══════════════Syahrul Shiddiq═════════════════
+{H}══════════════Syahrul Shiddiq═══════════════
 {k}     [ {H}Example : 08xxxx        {k}]
 {k}     [ {H}Jangan Salah Gunakan {k}]
 {H}     ═══════════════════════════\n
