@@ -35,9 +35,6 @@ class nyepam:
 	def mulai(self):
 		try:
 			
-target = input(" Target Call : ")
-
-
 api_url = "https://www.nutriclub.co.id/otp/?phone=0"+target+"&old_phone=0"+target
 
 headers = {
