@@ -1,4 +1,3 @@
-@@ -1,148 +0,0 @@
 #!/bin/urs/python
 #mau recode ya?
 #recode aje nyet
