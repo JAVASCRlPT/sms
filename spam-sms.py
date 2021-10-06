@@ -35,7 +35,7 @@ class nyepam:
 	def mulai(self):
 		try:
 			for x in range(5):
-				send=json.loads(reek.get(f"https://www.nutriclub.co.id/otp/?phone=0"&old_phone=0{self._8}").text)
+				send=json.loads(reek.get(f"https://www.nutriclub.co.id/otp/?phone=0").text)
 				if send["message"]=="Anda akan menerima sebuah panggilan dari sistem kami. Silakan isi 6 ANGKA TERAKHIR dari nomor telepon dibawah ini.":continue
 				else:break
 			for x in range(5):
